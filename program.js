@@ -19,7 +19,7 @@ program
     console.log(`1 BTC = ${prices[base]} ${base}`)
     console.log(`1 BTC = ${prices[target]} ${target}`)
 
-    let targetAmount = await lib.convert({ currency: "XAU", value: 3 }, 'ETH');
+    let targetAmount = await lib.convert({ currency: "XAU", value: amount }, 'ETH');
 
     console.log(`${amount} ${base} = ${targetAmount} ${target}`);
   });
