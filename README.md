@@ -18,3 +18,19 @@ npm install
 1.5 XAU = 7.813418575825812 ETH
 ```
 
+## Help
+
+```
+./program.js --help
+
+  Usage: program [options] [command]
+
+  Options:
+
+    -h, --help                                            output usage information
+
+  Commands:
+
+    calculate <base_currency> <amount> <target_currency>
+```
+
