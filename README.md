@@ -1,5 +1,13 @@
 # Currency Price Converter
 
+## Installation
+
+```
+git clone https://github.com/stevenzeiler/currency-price-converter
+cd currency-price-converter
+npm install
+```
+
 ## Convert 1.5 XAU (ounces gold) to ETH
 
 ```
